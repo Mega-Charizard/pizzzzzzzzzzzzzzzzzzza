@@ -1,0 +1,74 @@
+<html><head>
+    <title>Pizzeria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+</head>
+
+<body class="body_background">
+    <div class="topnav">
+        <a class="active" href="#">Pizzeria</a>
+        <div class="topnav-right">
+         <a href="#viewblock">View Menu</a>
+         <a href="#addTopings">Add Menu</a>
+        </div>
+    </div>
+
+    <div class="row" id="viewblock">
+        <div class="img_div"> 
+            <img class="img-responsive" src="pizza.png">
+        </div>
+        <div class="menu_div">
+            <button id="menu_list">Menu</button>
+            <h1 id="pizza_1">1.Cheese Pizza</h1>
+            <h1 id="pizza_2">2.Veggie Pizza</h1>
+            <h1 id="pizza_3">3.Pepperoni Pizza</h1>
+            <h1 id="pizza_4">4.Meat Pizza</h1>
+            <h1 id="pizza_5">5.Margherita Pizza</h1>
+            <h1 id="pizza_6">6.Hawaiian Pizza</h1>
+
+           <div id="display_menu"></div>
+        </div>
+    </div>
+    
+    <div class="newRow" id="addTopings">
+        <div class="block1">
+            <div id="display_topping"> </div>
+			<button id="order">Order</button>
+            <p id="garlic" ></p>
+            <button id="garlic_1" onclick="garlic()">garlic</button>
+            <p id="onion" ></p>
+            <button id="onion" onclick="onion">onion</button>
+            <p id="bell-peppers" ></p>
+            <button id="bell-peppers" onclick="bell-peppers">bell-peppers</button>
+            <p id="mushroom" ></p>
+            <button id="mushroom" onclick="mushroom">mushroom</button>
+            <p id="coriander" ></p>
+            <button id="coriander" onclick="coriander">coriander</button>
+            <p id="hot-peppers" ></p>
+            <button id="hot-peppers" onclick="hot-peppers">hot-peppers</button>
+            <p id="tomato" ></p>
+            <button id="tomato" onclick="tomato">tomato</button>
+            <p id="chedder" ></p>
+            <button id="chedder" onclick="chedder">chedder</button>
+            <p id="mozzerella" ></p>
+            <button id="mozzerella" onclick="mozzerella">mozzerella</button>
+            <p id="shri">sent to shrilost@gmail.com</p>
+        </div>
+        <div class="block2">
+            <div id="display_addedmenu">
+            </div>
+        </div>
+        
+    </div>
+
+    <div>
+        <img class="img-responsive" src="topping.png">
+    </div>
+
+
+</body></html>
